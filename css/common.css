@@ -1,0 +1,74 @@
+body {
+	background: url(../img/background.png);
+	background-size:100% ;
+}
+
+
+.jumbotron{
+	background-color:#e8f3f4;
+	border-radius: 5rem 5rem 5rem 5rem;
+	padding: 2rem 2rem;
+	opacity: 0.9;
+}
+.card-header{
+	border-bottom:2px dotted skyblue;
+}
+
+.card-header:first-child {
+	border-radius: 5rem 5rem 0 0;
+	background-color:#e8f3f4;
+	opacity: 0.9;
+}
+
+.card {
+	border-radius: 2rem 2rem 3rem 3rem;
+	background-color:#e8f3f4;
+	opacity: 0.9;
+}
+
+hr{
+	border-top:6px dotted skyblue;
+}
+
+h1{
+	font-family:  "Didot";
+	font-weight:   bold;
+}
+
+h2{
+	font-family:  "Consolas";
+	font-weight:   bold;
+}
+
+
+.btn-group-lg>.btn, .btn-lg {
+	padding:       1rem 4rem;
+	font-size:     2rem;
+	border-radius: 1rem;
+	font-style:    italic;
+	font-family:   "Brush Script MT";
+	font-weight:   bold;
+}
+
+
+.btn-outline-primary {
+	color: #6e52a9;
+	border-color: #6e52a9;
+}
+
+.btn-outline-primary:hover {
+	background-color: #8e73b8;
+	border-color: #8e73b8;
+}
+
+.btn-outline-primary:focus{
+	background-color: #8e73b8;
+	border-color: #8e73b8;
+}
+
+
+.btn-danger{
+	background-color: #e9bed1;
+	border-color: #e9bed1;
+}
+

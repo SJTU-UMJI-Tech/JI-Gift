@@ -1,0 +1,28 @@
+{
+  "name": "JI-Gift",
+  "version": "0.0.1",
+  "description": "A gift system commonly used in JI",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "tc-imba",
+      "url": "https://github.com/tc-imba"
+    },
+    {
+      "name": "AuroraZK",
+      "url": "https://github.com/AuroraZK"
+    }
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5"
+  },
+  "scripts": {
+    "generate": "node ./data/generate.js"
+  }
+}
