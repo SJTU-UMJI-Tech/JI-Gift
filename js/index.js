@@ -1,6 +1,11 @@
 /**
  * Created by liu on 16-11-4.
  */
+const $ = require('jquery');
+require('bootstrap-loader');
+require('../css/common.css');
+const __student_data = require('../data/2017/data.json');
+
 $(document).ready(function () {
     var person;
     var no = 0;

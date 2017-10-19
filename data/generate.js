@@ -15,7 +15,7 @@ const input = fs.createReadStream(path.resolve(__dirname, dir, 'list.txt'));
 
 const rl = readline.createInterface({
     input: input,
-    output: process.stdout
+    //output: process.stdout
 });
 
 let _class = 0;
@@ -38,8 +38,8 @@ rl.on('line', (line) => {
 });
 
 rl.on('close', () => {
-    const filename = path.resolve(__dirname, dir, 'data.js');
-    const str = `var __student_data = ${JSON.stringify(data, null, 2)};`;
-    fs.writeFileSync(filename, str);
+    const filename = path.resolve(__dirname, dir, 'data.json');
+    // const str = `var __student_data = ${JSON.stringify(data, null, 2)};`;
+    fs.writeFileSync(filename, JSON.stringify(data, null, 2));
     console.log(`data write to ${filename}`);
 });
