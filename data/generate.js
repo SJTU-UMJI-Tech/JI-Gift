@@ -27,6 +27,7 @@ rl.on('line', (line) => {
         _class = Number(line);
     else {
         let result = line.match(/^(\d+)\s+(.+)\s+(F\d+)$/);
+        if (!result) return;
         let student = {
             id: result[1],
             name: result[2],
