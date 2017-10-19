@@ -6,7 +6,7 @@
     "type": "git",
     "url": ""
   },
-  "license": "MIT",
+  "license": "GPL-3.0",
   "babel": {
     "presets": [
       "env"
