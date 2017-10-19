@@ -1,49 +1,54 @@
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-	      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<!--<link rel="shortcut icon" href="/images/favicon.png">-->
-	<title></title>
-	
-	
-	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/common.css">
-	<base target="_self">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="favicon.png">
+    <title>JI Gift</title>
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <base target="_self">
+
+    <style>
+        body {
+            background: url(data/2017/background.jpg);
+            background-size: 100%;
+        }
+    </style>
 </head>
 
 <body>
 
 <div class="container">
-	
-	<br>
-	
-	<div class="jumbotron text-center">
-		
-		<button id="button" class="btn btn-lg btn-outline-primary">DRAW</button>
-		<hr>
-		<br>
-		
-		<h1 id="display"></h1>
-	
-	</div>
-	
-	<div class="card">
-		<h2 class="card-header text-center">List</h2>
-		<div class="card-block">
-			<div class="row text-center">
-				<div class="col-sm-2"><h5>No.</h5></div>
-				<div class="col-sm-4"><h5>Student ID</h5></div>
-				<div class="col-sm-2"><h5>Class ID</h5></div>
-				<div class="col-sm-4"><h5>Name</h5></div>
-			</div>
-		</div>
-		<div class="card-block" id="list">
-		</div>
-	</div>
-	
-	<div class="text-right">
-		<button class="btn btn-sm btn-danger" id="reset">Reset</button>
-	</div>
+
+    <br>
+
+    <div class="jumbotron text-center">
+
+        <button id="button" class="btn btn-lg btn-outline-primary">DRAW</button>
+        <hr>
+        <br>
+
+        <h1 id="display"></h1>
+
+    </div>
+
+    <div class="card">
+        <h2 class="card-header text-center">List</h2>
+        <div class="card-block">
+            <div class="row text-center">
+                <div class="col-sm-2"><h5>No.</h5></div>
+                <div class="col-sm-4"><h5>Student ID</h5></div>
+                <div class="col-sm-2"><h5>Class ID</h5></div>
+                <div class="col-sm-4"><h5>Name</h5></div>
+            </div>
+        </div>
+        <div class="card-block" id="list">
+        </div>
+    </div>
+
+    <div class="text-right">
+        <button class="btn btn-sm btn-danger" id="reset">Reset</button>
+    </div>
 
 </div>
 
